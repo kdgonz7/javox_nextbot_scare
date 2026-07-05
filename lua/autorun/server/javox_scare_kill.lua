@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 local ScaryHealthThreshold = CreateConVar("scary_health_threshold", "10000", { FCVAR_ARCHIVE },
     "Health threshold for Scary() function.")
 local TeammateRadius = CreateConVar("scary_teammate_radius", "650", { FCVAR_ARCHIVE }, "Radius to check for teammates.")

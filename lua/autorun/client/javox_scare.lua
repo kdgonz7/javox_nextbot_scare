@@ -249,7 +249,6 @@ local function InitializeDetection()
         print(string.format("  Scan Interval: %.1f seconds", DETECTION_INTERVAL))
         print(string.format("  Field of View: %d degrees", FOV_ANGLE))
         print(string.format("  Scared on Shot: %s", scaredOnShot:GetBool() and "YES" or "NO"))
-        print(string.format("  Scared on Friendly Death: %s", scaredOnFriendlyDeath:GetBool() and "YES" or "NO"))
         print(string.format("  Scary Hints: %s", scaryHintEnabled:GetBool() and "YES" or "NO"))
     end
 end
